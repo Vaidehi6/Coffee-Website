@@ -1,0 +1,697 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Bodoni Moda SC", serif; */
+}
+
+.navbar-brand img {
+    height: 45px;
+    border-radius: 10px;
+    width: 80px;
+    /* margin-left: 50px; */
+
+}
+
+.navbar-icon i {
+
+    color: white;
+    font-size: 23px;
+}
+
+.all-content {
+    background-color: #f7f5f2;
+}
+
+html ::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+    background-color: #ad8265;
+    border-radius: 10px;
+}
+
+html ::-webkit-scrollbar {
+    width: 10px;
+}
+
+#navbar {
+    background-color: #ad8265;
+}
+
+/* .navbar-nav {
+    margin-left: 50px;
+} */
+
+.nav-item .nav-link {
+
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+    background: #f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+
+#navbar form button {
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(../images/image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 30px;
+    color: #f7f5f2;
+    text-transform: uppercase;
+
+}
+
+#home .content p {
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 100;
+    color: #f7f5f2;
+}
+
+.content .btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: #ad8265;
+    color: #f7f5f2;
+    border: none;
+    transition: 0.5s ease;
+
+}
+
+.content .btn:hover {
+    background-color: #896954;
+    color: #f7f5f2;
+}
+
+#about {
+    width: 100%;
+    height: 100vh;
+    background-color: #f7f5f2;
+}
+
+#about .container {
+    padding-top: 70px;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.heading span {
+    color: rgb(122, 92, 83);
+}
+
+#about .card {
+    border-radius: 10px;
+}
+
+#about .card img {
+    border-radius: 10px;
+}
+
+#about .btn {
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #896954;
+    color: #896954;
+    line-height: 1;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+#about .btn:hover {
+    background-color: #ad8265;
+    color: #f7f5f2;
+
+}
+
+#about p {
+    font-size: 14px;
+}
+
+@media screen and (max-width:982px) {
+    #about p {
+        font-size: 5px;
+    }
+
+}
+
+@media screen and (max-width:766px) {
+    #about p {
+        font-size: 15px;
+    }
+
+    #about {
+        height: 150vh;
+    }
+
+}
+
+#top-cards {
+    width: 100%;
+    background-color: #f7f5f2;
+
+}
+
+.heading2 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.heading2 span {
+    color: rgb(122, 92, 83);
+}
+
+#top-cards .container {
+    margin-top: 60px;
+}
+
+
+#top-cards .card img {
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#top-cards .card h5 {
+    color: #896954;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 20px;
+
+}
+
+#top-cards .card p {
+    color: #ad8265;
+
+}
+
+#top-cards .card {
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#top-cards .card:hover {
+    transform: translateY(-10px);
+}
+
+#top-cards .card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+
+#top-cards .btn {
+    border-radius: 50px;
+    width: 120px;
+    background-color: #ad8265;
+    color: #f7f5f2;
+    border: none;
+    transition: 0.5s ease;
+}
+
+#top-cards .btn:hover {
+    background-color: #896954;
+    color: #f7f5f2;
+}
+
+#menu {
+    width: 100%;
+
+}
+
+.heading3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(122, 92, 83);
+    padding-top: 70px;
+    border-bottom: 2px solid rgb(122, 92, 83);
+}
+
+#container2 {
+    margin-top: 60px;
+}
+
+.star i {
+    color: #ad8265;
+}
+
+#menu h5 {
+    text-align: center;
+    color: #896954;
+    margin-top: 10px;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#menu p {
+    font-size: 16px;
+    color: #ad8265;
+    padding-top: 10px;
+}
+
+#menu p span {
+    float: right;
+    cursor: pointer;
+}
+
+#menu .card img {
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+
+#menu .btn {
+    border-radius: 50px;
+    width: 100%;
+    background-color: #ad8265;
+    color: #f7f5f2;
+    border: none;
+    transition: 0.5s ease;
+}
+
+#menu .btn:hover {
+    background-color: #896954;
+    color: #f7f5f2;
+}
+
+#menu .card-body p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#menu .card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+
+#menu .card {
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#menu .card:hover {
+    transform: translateY(-10px);
+}
+
+#product {
+    width: 100%;
+}
+
+.heading4 {
+    text-align: center;
+    color: rgb(122, 92, 83);
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 70px;
+    border-bottom: 2px solid rgb(122, 92, 83);
+}
+
+#container3 {
+    margin-top: 30px;
+}
+
+#product h5 {
+    text-align: center;
+    color: #896954;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#product .card img {
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#product p {
+    color: #ad8265;
+    padding-top: 10px;
+
+}
+
+#product p span {
+    float: right;
+    cursor: pointer;
+}
+
+#product .btn {
+    border-radius: 50px;
+    width: 100%;
+    background-color: #ad8265;
+    color: #f7f5f2;
+    border: none;
+    transition: 0.5s ease;
+}
+
+#product .btn:hover {
+    background-color: #896954;
+    color: #f7f5f2;
+}
+
+#product .card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+
+#product .card {
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#product .card:hover {
+    transform: translateY(-10px);
+}
+
+
+#merchandise {
+    width: 100%;
+}
+
+.heading5 {
+    text-align: center;
+    color: rgb(122, 92, 83);
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 70px;
+    border-bottom: 2px solid rgb(122, 92, 83);
+}
+
+#container4 {
+    margin-top: 30px;
+}
+
+#merchandise h5 {
+    text-align: center;
+    color: #896954;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#merchandise .card img {
+    object-fit: cover;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#merchandise p {
+    color: #ad8265;
+    padding-top: 10px;
+
+}
+
+#merchandise p span {
+    float: right;
+    cursor: pointer;
+}
+
+#merchandise .btn {
+    border-radius: 50px;
+    width: 100%;
+    background-color: #ad8265;
+    color: #f7f5f2;
+    border: none;
+    transition: 0.5s ease;
+}
+
+#merchandise .btn:hover {
+    background-color: #896954;
+    color: #f7f5f2;
+}
+
+#merchandise .card-body {
+    padding: 25px;
+    margin-top: -15px;
+}
+
+#merchandise .card {
+    border-radius: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+
+#merchandise .card:hover {
+    transform: translateY(-10px);
+}
+
+#gallery {
+    width: 100%;
+}
+
+.heading6 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.heading6 span {
+    color: rgb(122, 92, 83);
+}
+
+#gallery .card{
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#gallery .card img{
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, beige 80%, #896954 20%);
+    border-radius: 10px;
+}
+
+.heading7{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+
+.heading7 span{
+    color: rgb(122, 92, 83);
+}
+
+#contact p{
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+#contact input{
+    width: 360px;
+
+}
+
+#contact textarea {
+    width: 48%; /* Adjust the width as needed */
+    height: 100px; /* Set the height of the textarea */
+    padding: 10px; /* Add some padding */
+    border-radius: 4px; /* Optional: add rounded corners */
+    font-size: 16px; /* Adjust the font size */
+    resize: vertical; /* Allow vertical resizing only */
+  }
+
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    outline: none;
+    background: #ad8265;
+    color: #f7f5f2;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+
+}
+
+#contact-btn:hover{
+    background-color: #896954;
+    color: #f7f5f2;
+}
+
+#col{
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+}
+
+#contact h1{
+    color: #f7f5f2;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#contact #col p{
+    color: #f7f5f2;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 13px;
+
+}
+
+#contact #col i{
+    padding-right: 10px;
+}
+
+@media screen and (max-width:766px){
+
+    #contact .container{
+        background: beige;
+    }
+
+    #col{
+        width: 100%;
+        background: #896954;
+    }
+
+    #contact{
+        height: 150vh;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    #contact input{
+        width: 250px;
+    }
+
+
+}
+
+#footer{
+    background-color: #896954;
+    padding: 85px 0;
+}
+
+#footer .single-box p{
+    color: #f7f5f2;
+    line-height: 1.9;
+}
+
+#footer .single-box h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #f7f5f2;
+}
+
+#footer .single-box h2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #f7f5f2;
+}
+
+
+#footer .footer-logo img{
+    height: 45px;
+    border-radius: 10px;
+    width: 80px;
+    margin-bottom: 20px;
+
+}
+
+#footer .card-area img {
+    border: 1px solid #ddd;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#footer .single-box ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#footer .single-box ul li a{
+    text-decoration: none;
+    line-height: 2.5;
+    color: #f7f5f2;
+    font-weight: 100;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#basic-addon2{
+    background: #7f5e65;
+    color: #f7f5f2;
+    cursor: pointer;
+
+}
+
+.socials i{
+    font-size: 18px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+
+@media (max-width:767px){
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
